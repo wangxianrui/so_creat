@@ -10,28 +10,6 @@
 
 using namespace std;
 
-//void getFiles(string cate_dir, vector<string> &files) {
-//    DIR *dir;
-//    struct dirent *ptr;
-//
-//    if ((dir = opendir(cate_dir.c_str())) == NULL) {
-//        perror("Open dir error...");
-//        exit(1);
-//    }
-//    while ((ptr = readdir(dir)) != NULL) {
-//        if (strcmp(ptr->d_name, ".") == 0 || strcmp(ptr->d_name, "..") == 0)    ///current dir OR parrent dir
-//            continue;
-//        else if (ptr->d_type == 8)    ///file
-//            files.push_back(ptr->d_name);
-//        else if (ptr->d_type == 10)    ///link file
-//            continue;
-//        else if (ptr->d_type == 4)    ///dir
-//            files.push_back(ptr->d_name);
-//    }
-//    closedir(dir);
-//    sort(files.begin(), files.end());
-//}
-
 void getFiles(string cate_dir, vector<string> &files, string substring = "") {
     DIR *dir;
     struct dirent *ptr;
@@ -121,6 +99,7 @@ int main() {
     output.close();
 */
 
+    cout << "sdfsdafdfasdf";
 
     return 0;
 }
