@@ -1,0 +1,7 @@
+/home/wxrui/clionPRO/testSO/build/CMakeFiles/install.dir
+/home/wxrui/clionPRO/testSO/build/CMakeFiles/list_install_components.dir
+/home/wxrui/clionPRO/testSO/build/CMakeFiles/rebuild_cache.dir
+/home/wxrui/clionPRO/testSO/build/CMakeFiles/Watermark.dir
+/home/wxrui/clionPRO/testSO/build/CMakeFiles/install/strip.dir
+/home/wxrui/clionPRO/testSO/build/CMakeFiles/install/local.dir
+/home/wxrui/clionPRO/testSO/build/CMakeFiles/edit_cache.dir

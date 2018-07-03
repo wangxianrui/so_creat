@@ -1,0 +1,2 @@
+/home/wxrui/clionPRO/testSO/build_ins/lib/libWatermark.so
+/home/wxrui/clionPRO/testSO/build_ins/include/Watermark.h

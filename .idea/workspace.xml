@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Project" targetName="Watermark" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c952988b-2b1e-4352-a50c-1f0309fca33b" name="Default" comment="wxrui">
+      <change afterPath="$PROJECT_DIR$/QR/qrReader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QR/qrReader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConstW.h" beforeDir="false" afterPath="$PROJECT_DIR$/ConstW.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DetectBlind.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DetectBlind.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageInsert.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageInsert.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RS/berlekamp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/RS/berlekamp.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RS/galois.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/RS/galois.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Watermark.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Watermark.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Watermark.h" beforeDir="false" afterPath="$PROJECT_DIR$/Watermark.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attackout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/3.5.1/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/3.5.1/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/3.5.1/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/3.5.1/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Progress/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/DetectBlind.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/RS/berlekamp.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/RS/crcgen.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/RS/galois.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/RS/rs.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/Watermark.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/Watermark.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/Watermark" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-test/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fingerLib.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fingerLib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noneout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resout" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testwk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wk" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DetectBlind.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DetectBlind.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Watermark.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Watermark.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+              <folding>
+                <element signature="e#42#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qrReader.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QR/qrReader.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#2#0" />
+                <element signature="e#114#675#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Watermark2</find>
+      <find>PRO</find>
+      <find>/PRO</find>
+      <find>imgMat</find>
+      <find>img</find>
+      <find>img2</find>
+      <find>img1</find>
+      <find>img,</find>
+      <find>imgMat2</find>
+      <find>10</find>
+      <find>\t</find>
+      <find>points</find>
+      <find>:</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Watermark</replace>
+      <replace>img</replace>
+      <replace>imgMat,</replace>
+      <replace>imgMat2</replace>
+      <replace>imgMat1</replace>
+      <replace>imgMat</replace>
+      <replace>imgMatR[1]</replace>
+      <replace>5</replace>
+      <replace />
+      <replace>&quot;,&quot;</replace>
+      <replace>possibleCenters</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="wxrui" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/RS/rs.cpp" />
+        <option value="$PROJECT_DIR$/wk.txt" />
+        <option value="$PROJECT_DIR$/fingerLib.txt" />
+        <option value="$PROJECT_DIR$/extract_wk.txt" />
+        <option value="$PROJECT_DIR$/output" />
+        <option value="$PROJECT_DIR$/attackout" />
+        <option value="$PROJECT_DIR$/resout" />
+        <option value="$PROJECT_DIR$/noneout" />
+        <option value="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+        <option value="$PROJECT_DIR$/psnr" />
+        <option value="$PROJECT_DIR$/ConstW.h" />
+        <option value="$PROJECT_DIR$/sim" />
+        <option value="$PROJECT_DIR$/480_272psnr" />
+        <option value="$PROJECT_DIR$/480_272" />
+        <option value="$PROJECT_DIR$/1024_600" />
+        <option value="$PROJECT_DIR$/1024_600averageblur" />
+        <option value="$PROJECT_DIR$/1024_600noise" />
+        <option value="$PROJECT_DIR$/1024_600rotate180" />
+        <option value="$PROJECT_DIR$/480_272crop" />
+        <option value="$PROJECT_DIR$/480_272averageblur" />
+        <option value="$PROJECT_DIR$/480_272gaussianblur" />
+        <option value="$PROJECT_DIR$/480_272size2" />
+        <option value="$PROJECT_DIR$/480_272size05" />
+        <option value="$PROJECT_DIR$/480_272rotate90" />
+        <option value="$PROJECT_DIR$/480_272rotate90+flipx" />
+        <option value="$PROJECT_DIR$/480_272rotate180" />
+        <option value="$PROJECT_DIR$/480_272rotate180+flipx" />
+        <option value="$PROJECT_DIR$/480_272rotate270" />
+        <option value="$PROJECT_DIR$/480_272rotate270+flipx" />
+        <option value="$PROJECT_DIR$/result/480_272crop" />
+        <option value="$PROJECT_DIR$/result/480_272averageblur" />
+        <option value="$PROJECT_DIR$/result/480_272gaussianblur" />
+        <option value="$PROJECT_DIR$/result/480_272size2" />
+        <option value="$PROJECT_DIR$/result/480_272size05" />
+        <option value="$PROJECT_DIR$/result/480_272rotate0+flipx" />
+        <option value="$PROJECT_DIR$/result/480_272rotate90" />
+        <option value="$PROJECT_DIR$/result/480_272rotate90+flipx" />
+        <option value="$PROJECT_DIR$/result/480_272rotate180+flipx" />
+        <option value="$PROJECT_DIR$/result/480_272rotate270" />
+        <option value="$PROJECT_DIR$/result/480_272rotate270+flipx" />
+        <option value="$PROJECT_DIR$/result/480_272rotate180" />
+        <option value="$PROJECT_DIR$/result/1024_600size05" />
+        <option value="$PROJECT_DIR$/result/480_272" />
+        <option value="$PROJECT_DIR$/Watermark.h" />
+        <option value="$PROJECT_DIR$/QR/qrReader.h" />
+        <option value="$PROJECT_DIR$/ImageInsert.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Watermark.cpp" />
+        <option value="$PROJECT_DIR$/DetectBlind.cpp" />
+        <option value="$PROJECT_DIR$/QR/qrReader.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="362" />
+    <option name="y" value="168" />
+    <option name="width" value="1400" />
+    <option name="height" value="821" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Watermark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wmso" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/QR" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug/CMakeFiles" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Watermark">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Watermark" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="Watermark" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Watermark" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Watermark" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.Watermark" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c952988b-2b1e-4352-a50c-1f0309fca33b" name="Default" comment="" />
+      <created>1511184651373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511184651373</updated>
+      <workItem from="1511184652766" duration="3568000" />
+      <workItem from="1511238089645" duration="296000" />
+      <workItem from="1511247146164" duration="1067000" />
+      <workItem from="1511316550477" duration="1631000" />
+      <workItem from="1512465303827" duration="411000" />
+      <workItem from="1512465804800" duration="5897000" />
+      <workItem from="1512525741210" duration="1798000" />
+      <workItem from="1512527552451" duration="48000" />
+      <workItem from="1512528034456" duration="2645000" />
+      <workItem from="1512541489512" duration="2586000" />
+      <workItem from="1516669767412" duration="432000" />
+      <workItem from="1516671776290" duration="31000" />
+      <workItem from="1516671968803" duration="635000" />
+      <workItem from="1516764572061" duration="14603000" />
+      <workItem from="1516866719479" duration="1266000" />
+      <workItem from="1516868080135" duration="27000" />
+      <workItem from="1516868127925" duration="5244000" />
+      <workItem from="1516928457126" duration="17000" />
+      <workItem from="1516928622999" duration="8448000" />
+      <workItem from="1516951196891" duration="2513000" />
+      <workItem from="1517187352645" duration="3096000" />
+      <workItem from="1517196655989" duration="7829000" />
+      <workItem from="1517214525402" duration="2405000" />
+      <workItem from="1517274768408" duration="7067000" />
+      <workItem from="1517898650859" duration="15523000" />
+      <workItem from="1517971785676" duration="5413000" />
+      <workItem from="1517994039542" duration="637000" />
+      <workItem from="1517994870742" duration="3140000" />
+      <workItem from="1519605902688" duration="2423000" />
+      <workItem from="1520490229447" duration="149000" />
+      <workItem from="1520566166262" duration="1979000" />
+      <workItem from="1520587675247" duration="2239000" />
+      <workItem from="1520593275684" duration="13735000" />
+      <workItem from="1520774352463" duration="5671000" />
+      <workItem from="1520823272875" duration="1911000" />
+      <workItem from="1520828569254" duration="11857000" />
+      <workItem from="1520857861167" duration="27537000" />
+      <workItem from="1520939270683" duration="1799000" />
+      <workItem from="1520996091645" duration="4082000" />
+      <workItem from="1521013628502" duration="9020000" />
+      <workItem from="1521092856695" duration="17515000" />
+      <workItem from="1521114273547" duration="43609000" />
+      <workItem from="1521376541552" duration="786000" />
+      <workItem from="1521378994637" duration="2375000" />
+      <workItem from="1521444210422" duration="111000" />
+      <workItem from="1521462995895" duration="47062000" />
+      <workItem from="1521614189663" duration="28509000" />
+      <workItem from="1521804008838" duration="894000" />
+      <workItem from="1522672508419" duration="375000" />
+      <workItem from="1525851927387" duration="3728000" />
+      <workItem from="1525867887214" duration="514000" />
+      <workItem from="1525915840563" duration="6241000" />
+      <workItem from="1525934854455" duration="2737000" />
+    </task>
+    <task id="LOCAL-00001" summary="wxrui">
+      <created>1517210149813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517210149813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="335131000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="57" y="-4" width="1863" height="1084" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" x="65" y="130" width="234" height="950" id="Project" order="0" visible="true" weight="0.13472894" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.33709016" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32924336" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32924336" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27663934" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997955" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32889345" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wxrui" />
+    <option name="LAST_COMMIT_MESSAGE" value="wxrui" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="25" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DetectBlind.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR/qrReader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#2#0" />
+            <element signature="e#114#675#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageInsert.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="150" column="36" lean-forward="true" selection-start-line="150" selection-start-column="36" selection-end-line="150" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#192#657#0" />
+            <element signature="e#659#1188#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DetectBlind.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2812">
+          <caret line="148" column="9" selection-start-line="148" selection-start-column="9" selection-end-line="148" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#192#657#0" />
+            <element signature="e#659#1188#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/720_480rotate90+flipx" />
+    <entry file="file://$PROJECT_DIR$/result/720_480rotate90" />
+    <entry file="file://$PROJECT_DIR$/result/720_480rotate0+flipx" />
+    <entry file="file://$PROJECT_DIR$/result/1024_600size05" />
+    <entry file="file://$PROJECT_DIR$/result/1024_600size2" />
+    <entry file="file://$PROJECT_DIR$/result/1024_600gaussianblur" />
+    <entry file="file://$PROJECT_DIR$/result/1024_600averageblur" />
+    <entry file="file://$PROJECT_DIR$/result/720_480size05" />
+    <entry file="file://$PROJECT_DIR$/result/720_480size2" />
+    <entry file="file://$PROJECT_DIR$/result/720_480averageblur" />
+    <entry file="file://$PROJECT_DIR$/result/720_480crop" />
+    <entry file="file://$PROJECT_DIR$/result/720_480gaussianblur" />
+    <entry file="file://$PROJECT_DIR$/result/720_480" />
+    <entry file="file://$PROJECT_DIR$/result/1024_600salt" />
+    <entry file="file://$PROJECT_DIR$/result/480_272rotate270+flipx" />
+    <entry file="file://$PROJECT_DIR$/result/480_272salt" />
+    <entry file="file://$PROJECT_DIR$/result/480_272size2" />
+    <entry file="file://$PROJECT_DIR$/result/480_272size05" />
+    <entry file="file://$PROJECT_DIR$/result/480_272rorate270" />
+    <entry file="file://$PROJECT_DIR$/result/1920_1080averageblur" />
+    <entry file="file://$PROJECT_DIR$/result/1920_1080crop" />
+    <entry file="file://$PROJECT_DIR$/result/1920_1080gaussianblur" />
+    <entry file="file://$PROJECT_DIR$/result/1920_1080rotate0+flipx" />
+    <entry file="file://$PROJECT_DIR$/result/1920_1080rotate90" />
+    <entry file="file://$PROJECT_DIR$/result/1920_1080rotate90+flipx" />
+    <entry file="file://$PROJECT_DIR$/result/1920_1080salt" />
+    <entry file="file://$PROJECT_DIR$/result/1920_1080size2" />
+    <entry file="file://$PROJECT_DIR$/result/1920_1080size05" />
+    <entry file="file://$PROJECT_DIR$/QR/qrReader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/1920_1080" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+    <entry file="file://$PROJECT_DIR$/result/480_272averageblur" />
+    <entry file="file://$PROJECT_DIR$/result/480_272gaussianblur" />
+    <entry file="file://$PROJECT_DIR$/result/480_272rotate0+flipx" />
+    <entry file="file://$PROJECT_DIR$/result/480_272rotate90" />
+    <entry file="file://$PROJECT_DIR$/result/480_272rotate90+flipx" />
+    <entry file="file://$PROJECT_DIR$/result/480_272rotate180" />
+    <entry file="file://$PROJECT_DIR$/ImageInsert.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Watermark.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="117" column="41" lean-forward="true" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#192#657#0" />
+            <element signature="e#659#1188#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Watermark.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="e#42#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DetectBlind.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QR/qrReader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="143" column="8" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#2#0" />
+            <element signature="e#114#675#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
